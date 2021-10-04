@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ola select page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+    a:hover {
+        color: #ff8d00 !important;
+        text-decoration: underline;
+    }
+
+    a {
+        color: white !important;
+    }
+
+    .btn-outline-success:hover {
+        background-color: #ff8d00;
+        border-color: #ff8d00;
+    }
+
+    .btn-outline-success {
+        border-color: #ff8d00;
+        color: #ff8d00;
+    }
+
+    .bg-cover {
+        background-attachment: static;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    * {
+        box-sizing: border-box
+    }
+
+    body {
+        font-family: Verdana, sans-serif;
+        margin: 0
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+        position: relative;
+        background: #f1f1f1f1;
+    }
+
+    /* Slides */
+    .mySlides {
+        display: none;
+        padding: 80px;
+        text-align: center;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        position: absolute;
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+    }
+
+    /* The dot/bullet/indicator container */
+    .dot-container {
+        text-align: center;
+        padding: 20px;
+        background: #ddd;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    /* Add a background color to the active dot/circle */
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+
+    /* Add an italic font style to all quotes */
+    q {
+        font-style: italic;
+    }
+
+    /* Add a blue color to the author */
+    .author {
+        color: cornflowerblue;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <img src="img/logo1.png" style="width: 80px;height: 70px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BENEFITS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SUBSCRIPTION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DOWNLOAD APP
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container-fluid" style="padding: 0%; margin: 0%;">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/ola slect mem.png.crdownload" style="width: 100%;height: 500px;">
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="contanier" style="padding: 80px;">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/benefits-1.png" style="height:100px;width: 100px;">
+                <h5> Ride Without Peak Pricing</h5>
+                <p>
+                    No peak pricing on Prime & Mini,
+                    24X7.
+                </p>
+
+            </div>
+            <div class="col-md-4">
+                <img src="img/benefits-2.png" style="height:100px;width: 100px;">
+                <h5> Skip Booking Queue</h5>
+                <p>
+                    Your booking request gets first
+                    priority.
+                </p>
+
+            </div>
+            <div class="col-md-4">
+                <img src="img/benefits-4.png" style="width: 90px;height: 90px;">
+                <h5> Enjoy Free Wi-Fi</h5>
+                <p>
+                    Stay connected even as you
+                    commute.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="contanier" style="padding: 20px;">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/benefits-info-1.png"
+                    style="width: 70px;height: 80px;float: left; margin-right:15px; margin: 60px;">
+                <h6>
+                    Get Priority Customer Support
+                </h6>
+                <p>
+                    Faster response. Quicker resolutions.
+                </p>
+
+            </div>
+            <div class="col-md-6">
+                <img src="img/benefits-info-5.png"
+                    style="width: 70px;height: 80px;float: left; margin-right:15px;margin:60px;">
+                <h6>
+                    Get Top Drivers & Cars
+                </h6>
+                <p>
+                    Our highest rated rides at your service.
+                </p>
+
+            </div>
+
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/benefits-info-3.png"
+                    style="width: 70px;height: 80px;float: left; margin-right:15px; margin: 60px;">
+                <h6>
+                    Enjoy Ola Events
+                </h6>
+                <p>
+                    Access to concerts, matches and more.
+                </p>
+
+            </div>
+            <div class="col-md-6">
+                <img src="img/benefits-info-6.png"
+                    style="width: 70px;height: 80px;float: left; margin-right:15px;margin:60px;">
+                <h6>
+                    Get Partner Offers
+                </h6>
+                <p>
+                    Exciting offers/discounts from brand partners.
+                </p>
+
+            </div>
+            <div>
+                <h6 style="text-align: center;">More Details</h6>
+                <p style="text-align: center;">
+                    1.Select Savings valid on Mini and Prime rides.
+
+
+                </p>
+                <p style="text-align: center;">
+                    2.Select Savings do not apply on Corporate rides.
+
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides">
+            <h3 style="color: black;"> Select Speak</h3>
+            <br>
+            <q>"The best feature of #OlaSelect is NO PEAK PRICING! Thumbs up!"</q>
+            <p class="author">-Puneet
+                Author, Gurgaon </p>
+        </div>
+
+        <div class="mySlides">
+            <h3 style="color: black;"> Select Speak</h3>
+            <br>
+            <q>"Neat! Got Select priority while trying to book during peak hours."</q>
+            <p class="author">-Nikita
+                Fashion blogger, Delhi</p>
+        </div>
+
+        <div class="mySlides">
+            <h3 style="color: black;"> Select Speak</h3>
+            <br>
+            <q>"Booking a Prime and paying for a Mini is a real-life hack :D".</q>
+            <p class="author">- Shishir
+                Product Manager, Mumbai</p>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white" style="margin-top: 20px;">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Email Id </strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" for="form5Example2"></label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    An operational level agreement (OLA) is a contract that defines how various IT groups within
+                    a company plan to deliver a service or set of services.
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright olacab.com
+
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>
